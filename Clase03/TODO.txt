@@ -1,0 +1,4 @@
+Temas pendientes
+
+- TODO Ambientes de Software
+- TODO Tipo de pruebas

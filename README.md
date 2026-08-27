@@ -12,7 +12,7 @@
 - **Github:** https://github.com/crios2020/2026CFP35TesterAgosto
 - **Codeshare:** https://codeshare.io/crios2020
 - **meet:** https://meet.google.com/apo-fedn-cwv
-- **Aula Virtual:** https://aulasvirtuales.bue.edu.ar/
+- **Aula Virtual:** https://aulasvirtuales.bue.edu.ar/user/index.php?id=30192
 - **Clases Grabadas:** https://odysee.com/Tester-de-Aplicaciones:dd904f5832c2a847b2cf0325ac29d7d8f4d159c7?r=5hJFHaor3n5dAUDBZAKLCA2k2f4bLbnD&lid=dd904f5832c2a847b2cf0325ac29d7d8f4d159c7
 
 ### Software a instalar
