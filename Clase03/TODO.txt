@@ -1,4 +1,5 @@
 Temas pendientes
 
+- TODO Rehacer test de internet en CMD
 - TODO Ambientes de Software
 - TODO Tipo de pruebas
