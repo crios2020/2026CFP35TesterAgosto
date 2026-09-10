@@ -1,0 +1,12 @@
+- Ambientes de Software
+
+	Nombre del Ambiente					Costo del aprox. error
+- Ambiente de Diseño. 							1 U$S
+- Ambiente de Desarrollo.					   10 U$S
+- Ambiente de Testing.						  100 U$S
+- Ambiente de Producción.				   100000 U$S
+
+
+Prueba Unitaria:	consiste en probar una funcionalidad de un subsistema.
+Set de Pruebas:		es el conjunto de pruebas unitarias de un subsistema.
+Collección de Pruebas: es el conjunto de set de pruebas de un artefacto.
