@@ -1,0 +1,5 @@
+Desafio
+URL: https://crios2020.github.io/calculadora/
+
+- Armar documento de pruebas de la app web Calculadora.
+- Realizar pruebas de funcionamiento.
