@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <radialGradient id="fur" cx="45%" cy="38%" r="70%">
+      <stop offset="0" stop-color="#c9955d"/>
+      <stop offset=".48" stop-color="#a96f3f"/>
+      <stop offset="1" stop-color="#70472e"/>
+    </radialGradient>
+    <linearGradient id="head" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bd8954"/>
+      <stop offset="1" stop-color="#765039"/>
+    </linearGradient>
+    <radialGradient id="nose" cx="40%" cy="35%">
+      <stop offset="0" stop-color="#5d5148"/>
+      <stop offset=".65" stop-color="#302b28"/>
+      <stop offset="1" stop-color="#171615"/>
+    </radialGradient>
+    <linearGradient id="leg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#805438"/>
+      <stop offset="1" stop-color="#49382f"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <!-- subtle ground shadow -->
+  <ellipse cx="590" cy="694" rx="430" ry="35" fill="#000" opacity=".14" filter="url(#shadow)"/>
+
+  <!-- body -->
+  <path d="M175 510 C145 400 205 285 355 245 C475 213 605 237 700 286
+           C765 320 810 385 805 480 C800 585 724 640 600 654
+           C445 672 235 650 175 510Z"
+        fill="url(#fur)" stroke="#633f2a" stroke-width="5"/>
+
+  <!-- rear haunch -->
+  <path d="M180 505 C135 420 185 318 275 286 C220 380 235 520 335 626
+           C250 625 198 583 180 505Z" fill="#875735" opacity=".7"/>
+
+  <!-- neck -->
+  <path d="M650 285 C700 240 775 205 865 220 C925 230 970 280 970 355
+           L905 515 C840 510 760 468 710 410Z" fill="url(#fur)" stroke="#633f2a" stroke-width="5"/>
+
+  <!-- head / muzzle -->
+  <path d="M810 250 C865 195 1005 190 1080 252 C1135 298 1135 395 1090 449
+           C1055 492 970 500 892 466 C840 443 804 397 797 345 C792 308 798 275 810 250Z"
+        fill="url(#head)" stroke="#5d402f" stroke-width="5"/>
+
+  <!-- muzzle -->
+  <path d="M975 326 C1040 300 1100 322 1110 365 C1120 412 1080 458 1018 460
+           C972 462 940 432 942 392 C944 363 955 341 975 326Z"
+        fill="#9b8067" opacity=".78"/>
+
+  <!-- ear -->
+  <ellipse cx="858" cy="232" rx="43" ry="61" transform="rotate(-25 858 232)"
+           fill="#624433" stroke="#4c3528" stroke-width="5"/>
+  <ellipse cx="859" cy="235" rx="25" ry="39" transform="rotate(-25 859 235)" fill="#392a23"/>
+
+  <!-- second ear -->
+  <ellipse cx="1008" cy="218" rx="39" ry="57" transform="rotate(12 1008 218)"
+           fill="#624433" stroke="#4c3528" stroke-width="5"/>
+  <ellipse cx="1008" cy="220" rx="22" ry="36" transform="rotate(12 1008 220)" fill="#392a23"/>
+
+  <!-- eye -->
+  <ellipse cx="966" cy="285" rx="22" ry="27" fill="#211a17"/>
+  <ellipse cx="971" cy="279" rx="8" ry="10" fill="#050505"/>
+  <circle cx="976" cy="274" r="4" fill="#fff"/>
+
+  <!-- nose -->
+  <ellipse cx="1073" cy="369" rx="36" ry="28" fill="url(#nose)"/>
+  <ellipse cx="1061" cy="360" rx="8" ry="6" fill="#8d8178" opacity=".55"/>
+  <ellipse cx="1085" cy="362" rx="7" ry="5" fill="#8d8178" opacity=".35"/>
+
+  <!-- mouth -->
+  <path d="M1040 402 Q1070 418 1093 399" fill="none" stroke="#3d302a" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- legs -->
+  <path d="M300 570 C290 620 286 665 296 698 C305 719 344 719 354 697
+           C362 665 359 610 349 572Z" fill="url(#leg)" stroke="#543a2a" stroke-width="5"/>
+  <path d="M450 588 C440 630 438 678 448 704 C459 722 495 721 506 700
+           C513 668 507 620 496 583Z" fill="url(#leg)" stroke="#543a2a" stroke-width="5"/>
+  <path d="M720 555 C712 610 712 665 724 701 C735 722 770 721 781 699
+           C787 659 780 605 770 558Z" fill="url(#leg)" stroke="#543a2a" stroke-width="5"/>
+  <path d="M815 525 C810 588 811 652 823 696 C835 717 869 716 880 695
+           C885 649 878 581 866 528Z" fill="url(#leg)" stroke="#543a2a" stroke-width="5"/>
+
+  <!-- feet / toes -->
+  <g fill="#40342d" stroke="#2b2521" stroke-width="3">
+    <ellipse cx="326" cy="704" rx="43" ry="17"/>
+    <ellipse cx="478" cy="707" rx="42" ry="16"/>
+    <ellipse cx="750" cy="704" rx="43" ry="17"/>
+    <ellipse cx="850" cy="699" rx="43" ry="17"/>
+  </g>
+  <g fill="none" stroke="#9b806d" stroke-width="3" stroke-linecap="round">
+    <path d="M307 699v13 M325 697v15 M343 699v12"/>
+    <path d="M459 702v12 M477 700v14 M495 702v11"/>
+    <path d="M731 699v14 M749 698v15 M767 700v12"/>
+    <path d="M831 694v14 M849 693v15 M867 695v13"/>
+  </g>
+
+  <!-- whiskers -->
+  <g fill="none" stroke="#eee6dc" stroke-width="2" opacity=".9">
+    <path d="M1035 375 Q950 350 900 342"/>
+    <path d="M1040 386 Q950 380 892 380"/>
+    <path d="M1040 397 Q956 410 900 424"/>
+    <path d="M1050 407 Q982 438 935 454"/>
+    <path d="M1088 374 Q1140 352 1170 350"/>
+    <path d="M1088 389 Q1148 388 1180 398"/>
+  </g>
+
+  <!-- fur detail strokes -->
+  <g fill="none" stroke="#d3a06b" stroke-width="3" stroke-linecap="round" opacity=".42">
+    <path d="M260 350l55-25 M250 380l62-28 M240 410l67-27 M245 440l66-24"/>
+    <path d="M330 300l70-22 M365 325l75-24 M405 350l76-22 M450 380l78-20"/>
+    <path d="M520 300l70-8 M545 330l75-7 M570 360l75-5 M600 390l72 3"/>
+    <path d="M690 340l55 22 M705 370l58 24 M715 400l54 28 M730 430l48 27"/>
+    <path d="M850 285l55-20 M835 310l62-17 M828 338l65-13"/>
+  </g>
+
+  <!-- a few fine contour hairs -->
+  <g fill="none" stroke="#e5bd8a" stroke-width="2" opacity=".55">
+    <path d="M220 290q20-35 42-45 M250 275q20-34 44-43 M300 252q18-30 40-38"/>
+    <path d="M420 245q20-25 43-31 M480 244q22-20 45-23 M540 250q23-17 48-17"/>
+    <path d="M740 276q24-28 49-35 M770 260q25-26 50-31"/>
+  </g>
+</svg>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bodyGradient" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#a67c52"/>
+      <stop offset="100%" stop-color="#6f4e37"/>
+    </radialGradient>
+
+    <radialGradient id="faceGradient" cx="45%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#b88b5a"/>
+      <stop offset="100%" stop-color="#6b4a32"/>
+    </radialGradient>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+
+    <filter id="furTexture">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="noise"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feBlend in="SourceGraphic" in2="noise" mode="multiply"/>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" fill="#d9efe0"/>
+
+  <ellipse cx="520" cy="850" rx="260" ry="55" fill="#7a5a40" opacity="0.25"/>
+
+  <!-- Body -->
+  <ellipse cx="540" cy="560" rx="290" ry="220"
+           fill="url(#bodyGradient)"
+           filter="url(#softShadow)"/>
+
+  <!-- Head -->
+  <ellipse cx="360" cy="470" rx="170" ry="150"
+           fill="url(#faceGradient)"
+           filter="url(#furTexture)"/>
+
+  <!-- Ears -->
+  <ellipse cx="280" cy="315" rx="28" ry="38" fill="#5d3f2b"/>
+  <ellipse cx="435" cy="305" rx="28" ry="38" fill="#5d3f2b"/>
+
+  <ellipse cx="280" cy="320" rx="14" ry="20" fill="#8c6845"/>
+  <ellipse cx="435" cy="310" rx="14" ry="20" fill="#8c6845"/>
+
+  <!-- Eyes -->
+  <ellipse cx="305" cy="455" rx="18" ry="14" fill="#1f1a17"/>
+  <ellipse cx="415" cy="450" rx="18" ry="14" fill="#1f1a17"/>
+
+  <circle cx="311" cy="450" r="4" fill="#ffffff" opacity="0.85"/>
+  <circle cx="421" cy="445" r="4" fill="#ffffff" opacity="0.85"/>
+
+  <!-- Nose -->
+  <ellipse cx="360" cy="545" rx="58" ry="42" fill="#3b2b22"/>
+
+  <ellipse cx="340" cy="545" rx="8" ry="12" fill="#1b1613"/>
+  <ellipse cx="380" cy="545" rx="8" ry="12" fill="#1b1613"/>
+
+  <!-- Mouth -->
+  <path d="M330 590 Q360 615 390 590"
+        stroke="#2b1f18"
+        stroke-width="5"
+        fill="none"
+        stroke-linecap="round"/>
+
+  <!-- Legs -->
+  <rect x="350" y="690" width="70" height="145" rx="30" fill="#6a4b35"/>
+  <rect x="470" y="705" width="70" height="140" rx="30" fill="#6a4b35"/>
+  <rect x="610" y="695" width="70" height="145" rx="30" fill="#6a4b35"/>
+  <rect x="730" y="675" width="70" height="155" rx="30" fill="#6a4b35"/>
+
+  <!-- Fur details -->
+  <path d="M260 500 Q360 450 470 510"
+        stroke="#8e6848"
+        stroke-width="3"
+        fill="none"
+        opacity="0.35"/>
+
+  <path d="M300 620 Q500 570 740 650"
+        stroke="#8e6848"
+        stroke-width="4"
+        fill="none"
+        opacity="0.3"/>
+
+  <path d="M420 420 Q600 360 760 470"
+        stroke="#8e6848"
+        stroke-width="3"
+        fill="none"
+        opacity="0.28"/>
+
+  <!-- Whiskers -->
+  <line x1="295" y1="565" x2="225" y2="545" stroke="#3f3127" stroke-width="2"/>
+  <line x1="295" y1="575" x2="220" y2="585" stroke="#3f3127" stroke-width="2"/>
+
+  <line x1="425" y1="565" x2="495" y2="545" stroke="#3f3127" stroke-width="2"/>
+  <line x1="425" y1="575" x2="500" y2="590" stroke="#3f3127" stroke-width="2"/>
+
+  <!-- Highlights -->
+  <ellipse cx="310" cy="390" rx="60" ry="35" fill="#ffffff" opacity="0.08"/>
+  <ellipse cx="580" cy="470" rx="120" ry="70" fill="#ffffff" opacity="0.06"/>
+</svg>

@@ -1,0 +1,10 @@
+
+
+1 - Leer la nota, la misma será considerada como caso de estudio 
+		y documentación del proyecto.
+	https://tn.com.ar/sociedad/2021/02/08/imc-que-es-y-como-se-calcula/?outputType=amp
+	
+2 - Crear documento de pruebas para la app IMC con patrón RED/GREEN
+	https://crios2020.github.io/imc/
+
+3 - Testear la APP
