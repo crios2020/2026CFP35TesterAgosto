@@ -1,9 +1,11 @@
 
     <?php 
-		if(		isset($_REQUEST['nro1']) && 
-				isset($_REQUEST['nro2']) &&
-				$_REQUEST['nro1']!=null  &&
-				$_REQUEST['nro2']!=null
+		if(		isset($_REQUEST['nro1']) 		&& 
+				isset($_REQUEST['nro2']) 		&&
+				$_REQUEST['nro1']!=null  		&&
+				$_REQUEST['nro2']!=null  		&&
+				is_numeric($_REQUEST['nro1'])	&&
+				is_numeric($_REQUEST['nro1'])
 		){
 			$nro1=$_REQUEST['nro1'];
 			$nro2=$_REQUEST['nro2'];
