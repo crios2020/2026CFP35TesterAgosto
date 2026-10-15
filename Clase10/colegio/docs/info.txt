@@ -1,0 +1,19 @@
+ANSI SQL    https://es.wikipedia.org/wiki/SQL
+
+DDL -   Data Definition Language    (Lenguaje de definición de datos)
+                create alter drop table (estructura de datos de tabla)
+        compatibilidad ANSI  50%
+
+DML -   Data Manipulation Language  (Lenguaje de manipulación de datos)
+                insert delete update select (manipulación de registros)
+        compatibilidad ANSI  99%
+
+DCL -   Data Control Language (Lenguaje de control de datos)
+        compatibilidad ANSI  10%
+
+Extensión VSCode SQL
+MySQL v7.6.2 Weijan Chen database-client.com
+
+
+cliente https://dbeaver.io/download/
+
